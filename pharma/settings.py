@@ -152,7 +152,7 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "mediafiles"
-
+STATICFILES_STORAGE =  'django.contrib.staticfiles.storage.StaticFilesStorage'
 # Messages
 
 from django.contrib.messages import constants as messages
